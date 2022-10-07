@@ -1,0 +1,29 @@
+
+<app-header [pageTitle]="pageTitle"></app-header>
+
+<ion-content>
+
+  <ion-card>
+    
+  </ion-card>
+  
+
+  <img src="/assets/img/loginregister.jpg" alt="">  
+
+  <ion-item>
+    <ion-label position="floating" placeholder="susa.oria@duocuc.cl">Correo Institucional</ion-label>
+    <ion-input formControlName="correo"></ion-input>
+
+    <ion-label position="floating">Contraseña</ion-label>
+    <ion-input formControlName="password" type="password"></ion-input>
+
+    <ion-label position="floating">Confirme Contraseña</ion-label>
+    <ion-input formControlName="confirmpassword" type="password"></ion-input>
+  </ion-item>
+
+  <ion-button routerLink="/login">Registrarse</ion-button>
+
+
+
+
+</ion-content>
